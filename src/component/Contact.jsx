@@ -18,7 +18,7 @@ const Contact = () => {
   });
  }
  return (
-  <div className="grid grid-cols-6 mt-16">
+  <div className="grid md:grid-cols-6 gap-6 md:gap-0 mt-16">
    <div className="col-span-2">
     <h2 className="text-3xl font-bold text-white uppercase mb-5">Contact Info</h2>
   <div className="flex gap-4 items-center">
