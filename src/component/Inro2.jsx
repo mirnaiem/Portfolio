@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Inro2 = () => {
  return (
-  <div className="grid grid-cols-4 gap-6">
+  <div className="grid w-full mx-auto md:grid-cols-4 gap-6">
 
 <div className='bg-[#191919] p-4 rounded-3xl col-span-1'>
    <div className="flex justify-center ">
@@ -17,13 +17,13 @@ const Inro2 = () => {
        <Arrow></Arrow>
        </div>
     </div>
-<div className="col-span-2 bg-[#191919] p-4 h-full flex flex-col gap-10 justify-center rounded-3xl">
+<div className="md:col-span-2 bg-[#191919] p-4 h-full flex flex-col gap-10 justify-center rounded-3xl">
 <div className="flex justify-around items-center text-white  ">
- <FaHtml5 size={60}></FaHtml5>
- <FaCss3 size={60}></FaCss3>
- <FaJsSquare size={60}></FaJsSquare>
- <FaReact size={60}></FaReact>
- <FaNodeJs size={60}></FaNodeJs>
+ <FaHtml5 className="text-5xl md:text-7xl"></FaHtml5>
+ <FaCss3 className="text-5xl md:text-7xl"></FaCss3>
+ <FaJsSquare className="text-5xl md:text-7xl"></FaJsSquare>
+ <FaReact className="text-5xl md:text-7xl"></FaReact>
+ <FaNodeJs className="text-5xl md:text-7xl"></FaNodeJs>
 
 </div>
 <div className='flex justify-between'>
