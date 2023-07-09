@@ -7,7 +7,7 @@ const Skill = () => {
   <>
   <h2 className="text-white text-5xl text-center font-bold mb-6">Skills</h2>
 
-  <div className="grid grid-cols-6 gap-6">
+  <div className="grid md:grid-cols-6 gap-6">
    <div className="bg-[#222222] py-2 rounded-2xl border text-center border-[#343434] ">
    <FaHtml5 size={60} className="text-white mx-auto"></FaHtml5>
    <h2 className="text-[#8c8c8c] text-xl font-bold">85%</h2>
