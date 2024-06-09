@@ -42,16 +42,16 @@ const Project = () => {
      </div>
     </div>
     <div className="bg-[#191919] p-2 pb-16  md:p-6 h-[500px] w-[85%] md:w-full  rounded-3xl ">
-     <div className="rounded-2xl w-full bg-[url('https://i.ibb.co/DGYLPYH/assignment-10-auth-c0d24-web-app.png')] bg-cover h-[70%]  ease-in-out duration-[5s]  hover:bg-bottom  " ></div>
+     <div className="rounded-2xl w-full bg-[url('https://i.ibb.co/4N1SxsL/easy-education-delta-vercel-app.png')] bg-cover h-[70%]  ease-in-out duration-[5s]  hover:bg-bottom  " ></div>
     
      <h2 className="text-[#8c8c8c] text-xl mt-6">FullStack Project</h2>
-     <h1 className="text-white text-2xl font-bold">Awesome Chef</h1>
+     <h1 className="text-white text-2xl font-bold">Easy Education</h1>
 
      <div className="flex flex-col md:flex-row justify-between md:gap-6 items-center ">
       <div className="flex mt-3 gap-2">
-       <Link className="flex items-center gap-2 h-8 bg-[#252525] px-2 rounded-lg m-0 text-white" to="https://github.com/mirnaiem/awesome-chef-client">Client<FaGithub></FaGithub></Link>
-       <Link className="flex items-center gap-2 h-8 bg-[#252525] px-2 rounded-lg m-0 text-white" to="https://github.com/mirnaiem/awesome-chef-server">Server<FaGithub></FaGithub></Link>
-       <Link className="flex items-center gap-2 h-8 bg-[#252525] px-2 rounded-lg m-0 text-white" to="https://assignment-10-auth-c0d24.web.app/">Preview<FaExternalLinkAlt></FaExternalLinkAlt></Link>
+       <Link className="flex items-center gap-2 h-8 bg-[#252525] px-2 rounded-lg m-0 text-white" to="https://github.com/mirnaiem/easy-education">Client<FaGithub></FaGithub></Link>
+       <Link className="flex items-center gap-2 h-8 bg-[#252525] px-2 rounded-lg m-0 text-white" to="https://github.com/mirnaiem/easy-education-server">Server<FaGithub></FaGithub></Link>
+       <Link className="flex items-center gap-2 h-8 bg-[#252525] px-2 rounded-lg m-0 text-white" to="https://easy-education-delta.vercel.app/">Preview<FaExternalLinkAlt></FaExternalLinkAlt></Link>
       </div>
 
       <Arrow></Arrow>

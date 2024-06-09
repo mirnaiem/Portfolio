@@ -5,7 +5,7 @@ import { SiExpress,SiDaisyui,SiFirebase } from "react-icons/si";
 const Skill = () => {
  return (
   <>
-  <h2 className="text-white text-5xl text-center font-bold mb-6">Skills</h2>
+  <h2 className="text-white text-5xl text-center font-bold mb-6 mt-20">Skills</h2>
 
   <div className="grid md:grid-cols-6 gap-6">
    <div className="bg-[#222222] py-2 rounded-2xl border text-center border-[#343434] ">

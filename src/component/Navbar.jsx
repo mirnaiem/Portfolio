@@ -35,7 +35,7 @@ const Navbar = () => {
         </ul>
       </div>
       < div className="navbar-end">
-        <a href="/public/Mir Nayeem Hasan's resume (1).pdf" download className="flex gap-2 p-2 bg-slate-300 rounded-lg md:btn">Resume <FaFileDownload size={25}></FaFileDownload></a>
+        <a href="/Mir Nayeem Hasan's resume (7).pdf" download className="flex gap-2 p-2 bg-slate-300 rounded-lg md:btn">Resume <FaFileDownload size={25}></FaFileDownload></a>
       </div>
     </motion.div>
   );
